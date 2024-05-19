@@ -1,0 +1,252 @@
+body{
+    margin: 0px;
+   
+}
+
+@font-face {
+    font-family:poppins;
+    src: url(./photos/Poppins/Poppins-Medium.ttf);
+}
+.navigation{
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-font{
+    display: flex;
+    color: white;
+}
+.nav-icon{
+    height: 16px;
+    margin-top: 24px;
+    margin-left: 50px;
+}
+.nav-font h6{
+    margin-left: 8px;
+}
+.address{
+    margin-left: -250px;
+}
+/* hero section */
+.hero{
+position: relative;
+}
+.sphere{
+    height: 790px;
+}
+.hero-font{
+   display: flex;
+}
+.hero-font h5{
+    margin-left: 30px;
+}
+.children{ 
+    position: absolute;
+    top: 0cm;
+    height: 80px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+}
+.left{
+    margin-left: 70px;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blue ;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.middle{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.homepng{
+    height:24px ;
+    width:24px ;
+    margin-top:13px ;
+    margin-left:13px ;
+}
+/* hero section after nav of hero section(left side) */
+.heroText{
+    position: absolute ;
+    top: 50px;
+    margin-left: 160px;
+}
+.heroText h3{
+   margin-top: 89px;
+   color: blue;
+}
+.heroText h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+/* hero section after nav of hero section(right side) */
+.form{
+    position: absolute ;
+    top: 200px;
+    margin-left: 800px;
+    width: 400px;
+    height: 520px;
+    background-color: white;
+    border-radius: 10%;
+}
+.rentSale{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    gap: 100px;
+    font-size: medium;
+}
+.box{
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    height: 400px;
+}
+
+.forSaleSearch{
+    height: 60px;
+    width: 340px;
+    border-radius: 20px;
+    border:0ch;
+    background-color:#fafafa;
+}
+.search{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search img{
+    height: 40px;
+}
+::placeholder{
+    text-align: center;
+}
+.group50{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -50px;
+}
+/* companies trust */
+.companies{
+    height: 200px;
+   
+}
+.companyImages{
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+}
+.companies h6{
+    display: flex;
+    justify-content: center;
+}
+/* location */
+.location{
+    /* deleted position absolute from here due to error in centre */
+    display: flex;
+    width: 1400px;
+}
+.locationLeft{
+    height: 600px;
+    width: 40%;
+    position: relative;
+    margin-left: 100px;
+}
+.locationLeft h5{
+    color: blue;
+}
+.locationRight{
+    height: 600px;
+    width: 40%;
+    position: absolute;
+    margin-left: 50%;
+    margin-left: 600px;
+}
+.rightBig{
+    height: 500px ;
+    width: 280px;
+    position: relative;
+}
+.rightLeft{
+    height:280px ;
+    width: 340px ;
+    position: relative;
+    top: -600px;
+    left: 300px;
+}
+.rightLeft2{
+    width: 340px ;
+    position: relative;
+    top: -639px;
+    left: 300px;
+}
+.card img{
+    width: 40px;
+    height: 40px;
+}
+.card{
+    height:130px ;
+    width: 400px;
+    background-color: #FFFFFF;
+    display:flex ;
+}
+.card img{
+    width: 40px;
+}
+/* cards checkout */
+.centre{
+    display: flex;
+}
+
+.cards img{
+    height: 240px;
+    width: 240px;
+}
+ 
+/* team */
+.expert{
+    display: flex;
+}
+/* team */
+.blogs{
+    background-color: blue;
+}
+.posts{
+    display: flex;
+}
+/* testimonials */
+.testimonials{
+    display: flex;
+} 
+
+ /* becomeAnAgent */
+ .boxLast{
+    height: 280px;
+    width: 80%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+ }
+ .registerIcon{
+    background-color: white;
+    height: 50px;
+
+ }
